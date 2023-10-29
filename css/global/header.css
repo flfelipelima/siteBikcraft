@@ -22,10 +22,7 @@
 
 .header-menu a {
   display: inline-block;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
   padding: 14px 0px;
-  font-size: 18px;
   position: relative;
 }
 

@@ -1,13 +1,11 @@
-.text-big {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 1.125;
+.font-1-xxl {
+  font: 600 4rem/1.125 "Poppins", sans-serif;
 }
 
-.text-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5;
+.font-2-l {
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.font-1-m {
+  font: 400  1.125rem/1 "Poppins", sans-serif;
 }
