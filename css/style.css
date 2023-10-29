@@ -1,4 +1,11 @@
+/*home*/
 @import url(./global/global.css);
+
+/*main*/
 @import url(./global/header.css);
 @import url(./home/intro.css);
+
+/*utility*/
 @import url(./utility/bt.css);
+@import url(./utility/text.css);
+@import url(./utility/color.css);
