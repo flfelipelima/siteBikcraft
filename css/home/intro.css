@@ -30,7 +30,6 @@
 }
 
 
-
 @media (max-width: 800px) {
   .intro-bg {
     background: var(--color-bh);
@@ -56,8 +55,3 @@
   }
 }
 
-h2 {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 50px 16px;
-}

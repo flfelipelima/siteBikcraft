@@ -1,9 +1,10 @@
 /*home*/
 @import url(./global/global.css);
+@import url(./home/intro.css);
+@import url(./home/parceiros.css);
 
 /*main*/
 @import url(./global/header.css);
-@import url(./home/intro.css);
 
 /*utility*/
 @import url(./utility/bt.css);
@@ -13,3 +14,5 @@
 
 /*bikes*/
 @import url(./bikes/bikes.css);
+
+@import url(./tech.css);

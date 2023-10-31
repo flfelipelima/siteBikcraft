@@ -1,8 +1,10 @@
 :root {
   --color-0: #ffffff;
+  --color-2: #ededed;
   --color-8: #595959;
   --color-5: #b2b2b2;
   --color-10: #2e2e2e;
+  --color-11: #111111;
   --color-bg: #000000;
   --color-bh: #111111;
   --color-p1: #ffbb00;
@@ -17,10 +19,14 @@
   color: var(--color-8);
 }
 
-.color-c5 {
+.color-5 {
   color: var(--color-5);
 }
 
 .color-p1 {
   color: var(--color-p1);
+}
+
+.color-c11 {
+  color: var(--color-11);
 }
