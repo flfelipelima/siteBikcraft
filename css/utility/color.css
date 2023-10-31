@@ -1,5 +1,6 @@
 :root {
   --color-0: #ffffff;
+  --color-8: #595959;
   --color-5: #b2b2b2;
   --color-10: #2e2e2e;
   --color-bg: #000000;
@@ -10,6 +11,10 @@
 /*text color*/
 .color-0 {
   color: var(--color-0);
+}
+
+.color-8 {
+  color: var(--color-8);
 }
 
 .color-c5 {

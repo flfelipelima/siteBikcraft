@@ -1,0 +1,39 @@
+.bikes {
+  padding: 60px 0 120px 0;
+}
+
+.bikes ul {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bikes a {
+  display: block;
+}
+
+.bikes img {
+  margin-bottom: 16px;
+}
+
+.bikes h3 {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.bikes h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: var(--color-p1);
+  margin-right: 8px;
+}
+
+.bikes li span {
+  padding-left: 20px;
+}
