@@ -1,14 +1,24 @@
 .bikes {
-  padding: 60px 0 120px 0;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.bikes h2 {
+  margin-bottom: 40px;
 }
 
 .bikes ul {
   display: flex;
   gap: 40px;
-  padding: 0 20px;
+  padding: 0 20px 20px 20px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: auto;
+}
+
+.bikes-items li {
+  min-width: 280px;
 }
 
 .bikes a {
@@ -32,8 +42,22 @@
   height: 8px;
   background: var(--color-p1);
   margin-right: 8px;
+  transition: width 0.2s;
+}
+
+.bikes a:hover h3::before {
+  width: 24px;
 }
 
 .bikes li span {
   padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .bikes {
+    padding-bottom: 60px;
+  }
+  .bikes ul {
+    gap: 20px;
+  }
 }

@@ -9,6 +9,7 @@
 @import url(./utility/bt.css);
 @import url(./utility/text.css);
 @import url(./utility/color.css);
+@import url(./utility/components.css);
 
 /*bikes*/
 @import url(./bikes/bikes.css);
