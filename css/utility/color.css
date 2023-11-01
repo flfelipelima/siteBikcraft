@@ -8,6 +8,9 @@
   --color-bg: #000000;
   --color-bh: #111111;
   --color-p1: #ffbb00;
+  --color-p2: #e4a30b;
+  --color-p4: #664400;
+  --color-p5: #332200;
 }
 
 /*text color*/
@@ -23,10 +26,22 @@
   color: var(--color-5);
 }
 
+.color-c11 {
+  color: var(--color-11);
+}
+
 .color-p1 {
   color: var(--color-p1);
 }
 
-.color-c11 {
-  color: var(--color-11);
+.color-p2 {
+  color: var(--color-p2);
+}
+
+.color-p4 {
+  color: var(--color-p4);
+}
+
+.color-p5 {
+  color: var(--color-p5);
 }
