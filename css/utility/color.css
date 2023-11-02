@@ -3,6 +3,8 @@
   --color-2: #ededed;
   --color-8: #595959;
   --color-5: #b2b2b2;
+  --color-6: #9c9c9c;
+  --color-9: #404040;
   --color-10: #2e2e2e;
   --color-11: #111111;
   --color-bg: #000000;
@@ -18,12 +20,27 @@
   color: var(--color-0);
 }
 
-.color-8 {
-  color: var(--color-8);
+.color-2 {
+  color: var(--color-2);
 }
 
 .color-5 {
   color: var(--color-5);
+}
+
+.color-6 {
+  color: var(--color-6);
+}
+
+.color-8 {
+  color: var(--color-8);
+}
+.color-9 {
+  color: var(--color-9);
+}
+
+.color-10 {
+  color: var(--color-10);
 }
 
 .color-c11 {

@@ -7,10 +7,20 @@
   text-transform: uppercase;
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  max-width: max-content;
 }
 
 .bt:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.bt.secundario {
+  background: var(--color-10);
+  color: var(--color-2);
+}
+
+.bt.secundario:hover {
+  background: var(--color-9);
 }
 
 @media (max-width: 600px) {

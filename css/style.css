@@ -3,13 +3,14 @@
 @import url(./home/intro.css);
 @import url(./home/parceiros.css);
 @import url(./home/depoimento.css);
+@import url(./home/seguros.css);
 
 /*main*/
 @import url(./global/header.css);
 
 /*utility*/
 @import url(./utility/bt.css);
-@import url(./utility/text.css);
+@import url(./utility/fonts.css);
 @import url(./utility/color.css);
 @import url(./utility/components.css);
 
