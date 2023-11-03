@@ -1,0 +1,39 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+}
+
+.footer-bg {
+  background-color: var(--color-12);
+}
+
+.footer-social {
+  display: flex;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.footer-items h2 {
+  padding-bottom: 32px;
+}
+
+.footer-items li + li {
+  margin-top: 10px;
+}
+
+.footer-direitos {
+  margin-top: 80px;
+  grid-column: 1/-1;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-direitos {
+    margin-top: 20px;
+  }
+}

@@ -7,6 +7,7 @@
   --color-9: #404040;
   --color-10: #2e2e2e;
   --color-11: #111111;
+  --color-12: #000000;
   --color-bg: #000000;
   --color-bh: #111111;
   --color-p1: #ffbb00;
@@ -43,8 +44,12 @@
   color: var(--color-10);
 }
 
-.color-c11 {
+.color-11 {
   color: var(--color-11);
+}
+
+.color-12 {
+  color: var(--color-12);
 }
 
 .color-p1 {

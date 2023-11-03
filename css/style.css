@@ -5,8 +5,9 @@
 @import url(./home/depoimento.css);
 @import url(./home/seguros.css);
 
-/*main*/
+/*global*/
 @import url(./global/header.css);
+@import url(./global/footer.css);
 
 /*utility*/
 @import url(./utility/bt.css);
