@@ -17,6 +17,7 @@
 @import url(./utility/termos.css);
 
 /*bikes*/
+@import url(./bikes/bikes-home.css);
 @import url(./bikes/bikes.css);
 
 @import url(./tech.css);
