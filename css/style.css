@@ -14,6 +14,7 @@
 @import url(./utility/fonts.css);
 @import url(./utility/color.css);
 @import url(./utility/components.css);
+@import url(./utility/termos.css);
 
 /*bikes*/
 @import url(./bikes/bikes.css);
