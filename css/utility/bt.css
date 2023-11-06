@@ -23,6 +23,25 @@
   background: var(--color-9);
 }
 
+.bt.seta {
+  display: flex;
+  align-items: center;
+}
+
+.bt.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+  transition: transform 0.2s;
+}
+
+.bt.seta:hover::after {
+  transform: translateX(4px)
+}
+
 @media (max-width: 600px) {
   .bt {
     padding: 12px 16px;
