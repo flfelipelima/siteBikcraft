@@ -1,5 +1,6 @@
 :root {
   --color-0: #ffffff;
+  --color-1: #f7f7f7;
   --color-2: #ededed;
   --color-8: #595959;
   --color-5: #b2b2b2;
@@ -19,6 +20,10 @@
 /*text color*/
 .color-0 {
   color: var(--color-0);
+}
+
+.color-1 {
+  color: var(--color-1);
 }
 
 .color-2 {
