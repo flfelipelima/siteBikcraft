@@ -20,8 +20,10 @@
 @import url(./bikes/bikes-home.css);
 @import url(./bikes/bikes.css);
 
-@import url(./tech.css);
+/*bicicleta*/
+@import url(../css/bicicleta/bicicleta.css);
 
+@import url(./tech.css);
 
 /*seguros*/
 @import url(./seguros/vantagens.css);
