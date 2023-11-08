@@ -15,6 +15,7 @@
 @import url(./utility/color.css);
 @import url(./utility/components.css);
 @import url(./utility/termos.css);
+@import url(./utility/formulario.css);
 
 /*bikes*/
 @import url(./bikes/bikes-home.css);
@@ -29,3 +30,7 @@
 /*seguros*/
 @import url(./seguros/vantagens.css);
 @import url(./seguros/perguntas.css);
+
+/*contato*/
+@import url(./contato/contato.css);
+@import url(./contato/lojas.css);
