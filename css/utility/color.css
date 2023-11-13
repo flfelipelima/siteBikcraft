@@ -6,6 +6,7 @@
   --color-4: #cccccc;
   --color-5: #b2b2b2;
   --color-6: #9c9c9c;
+  --color-7: #717171;
   --color-9: #404040;
   --color-10: #2e2e2e;
   --color-11: #111111;
@@ -41,6 +42,10 @@
 
 .color-6 {
   color: var(--color-6);
+}
+
+.color-7 {
+  color: var(--color-7);
 }
 
 .color-8 {
