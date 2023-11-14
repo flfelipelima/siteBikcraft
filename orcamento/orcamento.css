@@ -157,8 +157,9 @@
 .orcamento-termos input {
   width: 32px;
   height: 32px;
-  background: var(--color-1);
+  background: var(--color-11);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .orcamento-termos label {

@@ -5,10 +5,10 @@
 }
 
 .form .orcamento-termos {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
   grid-column: 1 / -1;
   align-items: center;
+  gap: 8px;
 }
 
 .form label {
@@ -16,6 +16,13 @@
   font: 500 1rem/1.5 "Poppins", sans-serif;
   margin-bottom: 4px;
 }
+
+.form .termos {
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
 
 .form .col-2 {
   grid-column: span 2;
