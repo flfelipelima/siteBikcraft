@@ -113,32 +113,32 @@
         <h2 class="font-1-xs color-9 col-2">Dados Pessoais</h2>
         <div>
           <label for="nome">Nome</label>
-          <input type="text" id="name" name="nome">
+          <input type="text" id="name" name="nome" required>
         </div>
         <div>
           <label for="nome">Sobrenome</label>
-          <input type="text" id="name" name="nome">
+          <input type="text" id="name" name="nome" required>
         </div>
         <div class="col-2">
           <label for="telefone">CPF</label>
-          <input type="text" id="telefone" name="telefone" placeholder="000.000.000-00">
+          <input type="text" id="telefone" name="telefone" placeholder="000.000.000-00" required>
         </div>
         <div class="col-2">
           <label for="email">Email</label>
-          <input type="text" id="email" name="email">
+          <input type="text" id="email" name="email" required>
         </div>
         <h2 class="font-1-xs color-9 col-2">entrega</h2>
         <div>
           <label for="cep">CEP</label>
-          <input type="text" id="cep" name="cep">
+          <input type="text" id="cep" name="cep" required>
         </div>
         <div>
           <label for="numero">Número</label>
-          <input type="text" id="numero" name="numero">
+          <input type="text" id="numero" name="numero" required>
         </div>
         <div>
           <label for="logradouro">Logradouro</label>
-          <input type="text" id="logradouro" name="logradouro">
+          <input type="text" id="logradouro" name="logradouro" required>
         </div>
         <div>
           <label for="bairro">Bairro</label>
@@ -146,19 +146,24 @@
         </div>
         <div>
           <label for="cidade">Cidade</label>
-          <input type="text" id="cidade" name="cidade">
+          <input type="text" id="cidade" name="cidade" required>
         </div>
         <div>
           <label for="estado">Estado</label>
           <input type="text" id="estado" name="estado">
         </div>
-        <div>
+
+        <div class="orcamento-termos form">
+          <input type="checkbox" name="produto" value="termos" id="termos" required>
+          <label for="termos">Li e aceito os termos e condições.</label>
+
           <button class="bt col-2">Enviar Mensagem</button>
+
         </div>
 
-        <div>
-          <p>Li e aceito os termos e condições.</p>
-        </div>
+      </div>
+
+
 
 
     </form>

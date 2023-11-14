@@ -4,6 +4,13 @@
   gap: 20px;
 }
 
+.form .orcamento-termos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column: 1 / -1;
+  align-items: center;
+}
+
 .form label {
   display: block;
   font: 500 1rem/1.5 "Poppins", sans-serif;

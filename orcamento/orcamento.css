@@ -154,6 +154,19 @@
   display: grid;
 }
 
+.orcamento-termos input {
+  width: 32px;
+  height: 32px;
+  background: var(--color-1);
+  border-radius: 4px;
+}
+
+.orcamento-termos label {
+  font: 500 1.15rem/1.5 "Poppins", sans-serif;
+  color: var(--color-11);
+  display: flex;
+}
+
 @media (max-width: 1200px) {
   .orcamento-produto,
   .orcamento-dados {
