@@ -16,6 +16,7 @@
 @import url(./utility/components.css);
 @import url(./utility/termos.css);
 @import url(./utility/formulario.css);
+@import url(./utility/simple-anime.css);
 
 /*bikes*/
 @import url(./bikes/bikes-home.css);
