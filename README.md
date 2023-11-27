@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Site Bikcraft trata-se de bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente.
 
-- [Acesse o projeto finalizado, online](flfelipelima.github.io/siteBikcraft/)
+- [Acesse o projeto finalizado](https://flfelipelima.github.io/siteBikcraft/)
 
 - [Origamid - Aulas](https://www.origamid.com/)
 
