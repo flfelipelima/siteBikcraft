@@ -19,7 +19,7 @@ Bikcraft é um projeto desenvolvido durante o curso de HTML, CSS e JS da Origami
 <br>
 
 <p align="center">
-  <img alt="projeto Bikcraft" src=".github/preview.png" width="100%">
+  <img alt="projeto Bikcraft" src="github/preview.png" width="100%">
 </p>
 
 
